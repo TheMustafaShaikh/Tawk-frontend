@@ -1,0 +1,118 @@
+.navigation {
+    color: #03A84E;
+    font-family: 'Lato', sans-serif;
+    margin: 0px !important;
+    padding-top: 20px;
+}
+
+.inside-navigation {
+    color: #9C9AA6;
+    font-family: 'Lato', sans-serif;
+}
+
+.navigation-section {
+    padding-left: 50px;
+}
+
+.section-show {
+    background-color: #FAFAFA;
+    margin: 0px;
+}
+
+.section-show-category {
+    background-color: #FAFAFA;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap !important;
+}
+
+.detail-section-1 {
+    width: 330px;
+    text-align: center;
+    border: 1px solid rgba(197, 197, 197, .5);
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+    height: 310px;
+    margin-bottom: 10px;
+}
+
+.section-show-category {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.section-show-details-1 h3 {
+    font-size: 23px;
+}
+
+.section-show-details-1 p {
+    font-size: 12px;
+    color: #9C9AA6;
+}
+
+.section-show-details-1 {
+    border-bottom: 1px solid rgba(197, 197, 197, .5);
+}
+
+.section-show-details-2 {
+    padding-top: 20px;
+}
+
+.section-show-details-2 p {
+    color: #9C9AA6;
+    font-size: 13px;
+    text-align: center;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(197, 197, 197, .5);
+    width: 440px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.article-1 {
+    display: flex;
+    align-items: center;
+}
+
+.article-section-detail {
+    margin-left: 10px;
+}
+
+.article-section-detail h4 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-section-detail p {
+    font-size: 11px;
+    margin: 0px;
+    color: #9C9AA6;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    .article {
+        width: 318px;
+    }
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.notfound {
+    color: #03A84E;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
